@@ -33,12 +33,33 @@ function App() {
         </p>
       </section>
 
+      <section className="max-w-4xl w-full py-12 border-t border-gray-700 text-center">
+        <h2 className="text-3xl font-bold mb-6">Technical Skills</h2>
+        <p className="text-gray-300 text-lg mb-6">
+          I work with modern technologies to build fast, scalable, and reliable solutions across both web and industrial environments.
+        </p>
+        <div className="flex flex-wrap justify-center gap-4 text-gray-100 text-base">
+          <span className="bg-gray-800 px-4 py-2 rounded">React</span>
+          <span className="bg-gray-800 px-4 py-2 rounded">JavaScript</span>
+          <span className="bg-gray-800 px-4 py-2 rounded">Python</span>
+          <span className="bg-gray-800 px-4 py-2 rounded">OPC UA</span>
+          <span className="bg-gray-800 px-4 py-2 rounded">SQL</span>
+          <span className="bg-gray-800 px-4 py-2 rounded">Node.js</span>
+          <span className="bg-gray-800 px-4 py-2 rounded">Express</span>
+          <span className="bg-gray-800 px-4 py-2 rounded">Tailwind CSS</span>
+        </div>
+      </section>
+
       <section id="contact" className="max-w-xl w-full py-12 border-t border-gray-700">
         <h2 className="text-3xl font-bold mb-6 text-center">Get in Contact</h2>
-        <form className="space-y-4">
-          <input className="w-full p-3 bg-gray-800 border border-gray-600 rounded" placeholder="Your Name" required />
-          <input className="w-full p-3 bg-gray-800 border border-gray-600 rounded" placeholder="Your Email" type="email" required />
-          <textarea className="w-full p-3 bg-gray-800 border border-gray-600 rounded" placeholder="Your Message" rows="4" required />
+        <form
+          action="https://formspree.io/f/manjgbeg"
+          method="POST"
+          className="space-y-4"
+        >
+          <input className="w-full p-3 bg-gray-800 border border-gray-600 rounded" name="name" placeholder="Your Name" required />
+          <input className="w-full p-3 bg-gray-800 border border-gray-600 rounded" name="email" type="email" placeholder="Your Email" required />
+          <textarea className="w-full p-3 bg-gray-800 border border-gray-600 rounded" name="message" placeholder="Your Message" rows="4" required />
           <button type="submit" className="bg-yellow-500 hover:bg-yellow-400 text-black font-semibold py-2 px-6 rounded">
             Send Message
           </button>
