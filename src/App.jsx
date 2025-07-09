@@ -15,9 +15,8 @@ function App() {
         <img
           src={logo}
           alt="DMC Development Logo"
-          className="w-24 mx-auto mb-6 hover:scale-110 transition-transform duration-300"
+          className="w-48 mx-auto mb-6 hover:scale-110 transition-transform duration-300"
         />
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">DMC Development</h1>
         <p className="text-lg md:text-xl text-gray-300 mb-6">
           Helping you stand out online with clean, fast, and functional websites.
         </p>
