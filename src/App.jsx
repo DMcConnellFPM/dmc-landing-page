@@ -50,6 +50,36 @@ function App() {
         </div>
       </section>
 
+      <section className="max-w-4xl w-full py-12 border-t border-gray-700 text-center">
+        <h2 className="text-3xl font-bold mb-6">Project Highlights</h2>
+        <div className="grid gap-6 md:grid-cols-2 text-left text-gray-300">
+          <div className="bg-gray-800 p-6 rounded shadow">
+            <h3 className="text-xl font-semibold mb-2">Industrial Robot Dashboard</h3>
+            <p>
+              Developed a real-time monitoring dashboard for industrial robots using React, Python, and OPC UA. Includes task tracking, SQL logging, and live fault detection.
+            </p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded shadow">
+            <h3 className="text-xl font-semibold mb-2">Mobile Berthing App</h3>
+            <p>
+              Built a React Native app prototype for boat captains to book parking berths, submit QR-based permits, and upload reports with images.
+            </p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded shadow">
+            <h3 className="text-xl font-semibold mb-2">Custom UI for Manufacturing</h3>
+            <p>
+              Designed and implemented user interfaces tailored for factory operators, integrating machine data and controls into a single real-time web application.
+            </p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded shadow">
+            <h3 className="text-xl font-semibold mb-2">SQL-Based Quality Control System</h3>
+            <p>
+              Engineered a dashboard for tracking scanned concrete tile data, including shift logs, visual checks, and real-time mass/dimension validation.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section id="contact" className="max-w-xl w-full py-12 border-t border-gray-700">
         <h2 className="text-3xl font-bold mb-6 text-center">Get in Contact</h2>
         <form
