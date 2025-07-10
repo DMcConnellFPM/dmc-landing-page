@@ -50,7 +50,7 @@ function App() {
       <section className="max-w-4xl w-full py-12 border-t border-gray-700 text-center" data-aos="fade-up">
         <h2 className="text-3xl font-bold mb-6">Why Work With DMC?</h2>
         <p className="text-gray-300 text-lg px-4">
-          I specialise in websites that are fast, easy to use, and tailored for small business needs. No fluff — just effective
+          I specialise in websites that are fast, easy to use, and tailored for small business needs. Effective
           design and clean code. I also have experience in User Interface design for Industrial Environments, such as
           Monitoring Systems and Dashboards.
         </p>
