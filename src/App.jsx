@@ -4,6 +4,9 @@ import logo from './assets/logo.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -115,6 +118,17 @@ function App() {
       </section>
 
       <footer className="py-6 text-sm text-gray-500 text-center border-t border-gray-700 w-full" data-aos="fade-in">
+        <div className="flex justify-center gap-4 mb-3">
+          <a
+            href="https://instagram.com/dmc_dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition"
+            aria-label="Instagram"
+          >
+            <FontAwesomeIcon icon={faInstagram} size="3x" />
+          </a>
+        </div>
         © {new Date().getFullYear()} DMC Development. All rights reserved.
       </footer>
     </div>
